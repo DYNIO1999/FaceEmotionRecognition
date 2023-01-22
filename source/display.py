@@ -40,7 +40,6 @@ emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fearful", 3: "Happy", 4: "Neutra
 open_camera_face_recognition:bool = False
 
 def choose_single_image_option():
-    print("jehehe")
     global main, root
     main.destroy()
     main=Frame(root)
